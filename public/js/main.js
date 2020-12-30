@@ -1,26 +1,25 @@
+// 1
+
 let nombre = 8.56
 
 // 2
 
-// nombre = Math.round(8.56)
-// console.log(nombre);
+console.log(Math.round(nombre));
 
 // 3
 
-// nombre = Math.round(1 * nombre)
-// console.log(nombre);
+console.log(Math.ceil(nombre));
 
 // 4 
 
-// nombre = Math.round(0.9 * nombre)
-// console.log(nombre);
+console.log(Math.floor(nombre));
 
 // 5
 
-// nombre = parseInt(8.56)
 // console.log(nombre);
-
 // console.log(Math.floor(nombre));
+// console.log(parseInt(nombre));
+console.log(Math.trunc(nombre));
 
 // 6
 
